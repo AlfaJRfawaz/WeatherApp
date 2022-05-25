@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/bg_icon_weather.xml" value="0.1255" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/row_item_weather.xml" value="0.18432971014492755" />
       </map>

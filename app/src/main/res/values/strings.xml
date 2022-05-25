@@ -4,4 +4,5 @@
     <string name="txt_image_icon_by_current_weather">Image Icon By Current Weather</string>
     <string name="txt_degree">Degree</string>
     <string name="txt_city">City</string>
+    <string name="txt_image_by_weather">Image by Weather</string>
 </resources>

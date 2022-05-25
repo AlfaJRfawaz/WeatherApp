@@ -77,7 +77,7 @@ class MainViewModel : ViewModel() {
                 call: Call<ForecastResponse>,
                 response: Response<ForecastResponse>
             ) {
-                TODO("Not yet implemented")
+                forecastByCurrentLocation.postValue(response.body())
             }
 
             override fun onFailure(call: Call<ForecastResponse>, t: Throwable) {
@@ -86,6 +86,7 @@ class MainViewModel : ViewModel() {
 
         })
     }
+    fun getForecastByCurrentLocation() : LiveData<ForecastResponse> = forecastByCurrentLocation
 }
 
 
